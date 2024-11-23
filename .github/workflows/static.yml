@@ -26,7 +26,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ https://github.com/RyKlneg/calculadora-bionergia }}
+      url: ${{ /RyKlneg/calculadora-bionergia }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
